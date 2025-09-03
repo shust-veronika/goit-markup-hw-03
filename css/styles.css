@@ -9,12 +9,12 @@ body {
 
 .item {
     font-family: "Roboto", sans-serif;
-        font-weight: bold;
-        font-size: 56px;
-        letter-spacing: 0.02em;
-        line-height: 1.07;
-        color: #ffffff;
-        text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: #ffffff;
+    text-align: center;
 }
 
 h2 {
@@ -33,31 +33,23 @@ h3 {
     color: #2E2F42;
 }
 
-.text {
-    font-size: 16px;
-        color: #434455;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-
 p {
     font-size: 16px;
     color: #434455;
     font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logo {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4D5AE5;
 }
 
 .nav-link {
@@ -65,7 +57,23 @@ p {
     font-weight: 500;
     color: #2E2F42;
     line-height: 1.5;
-        letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+}
+
+.nav-portfolio {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-cont {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -73,13 +81,32 @@ p {
     color: #404BBF;
 }
 
-.link {
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+    color: #404BBF;
+}
+
+.nav-cont:hover,
+.nav-cont:focus {
+    color: #404BBF;
+}
+
+.link-mailto {
     text-decoration: none;
     color: #434455;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link-tel {
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -97,8 +124,8 @@ p {
     cursor: pointer;
     color: #ffffff;
     font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .main-btn:hover {
@@ -130,23 +157,132 @@ ul {
 }
 
 .footer-item {
-    color:#f4f4fd;
+    color: #f4f4fd;
 }
 
-.main-features {
+.main-features-sta {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.heading {
+.main-features-punct {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-dilig {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-techno {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-mark {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-tom {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-camila {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-daniel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-ban {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-cas {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-medi {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-taxi {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-scr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.main-features-onli {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.heading-team {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading-our {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading-featu {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .logo-item {
@@ -163,4 +299,116 @@ ul {
 
 .list {
     background-color: #FFFFFF;
+}
+
+.text-app {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-cash {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-medi {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-tax {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-desi {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-market {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-produ {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-front {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-camil {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-ui {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-strate {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-punct {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-dilig {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-techno {
+    font-size: 16px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
