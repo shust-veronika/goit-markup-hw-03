@@ -15,6 +15,7 @@ body {
     line-height: 1.07;
     color: #ffffff;
     text-align: center;
+    margin-right: auto;
 }
 
 h2 {
@@ -41,7 +42,24 @@ p {
     letter-spacing: 0.02em;
 }
 
-.logo {
+.logo-header {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4D5AE5;
+    display: flex;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-left: 156px;
+        margin-right: 1169px;
+}
+
+.logo-footer {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -58,6 +76,12 @@ p {
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        gap: 40px;
+            list-style: none;
 }
 
 .nav-portfolio {
@@ -66,6 +90,12 @@ p {
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+        align-items: flex-start;
+        margin-top: 24px;
+            margin-bottom: 24px;
+            margin-left: 435px;
+            margin-right: 939px;
 }
 
 .nav-cont {
@@ -74,6 +104,12 @@ p {
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+        align-items: flex-start;
+        margin-top: 24px;
+            margin-bottom: 24px;
+            margin-left: 541px;
+            margin-right: 832px;
 }
 
 .nav-link:hover,
@@ -98,6 +134,8 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 24px;
+        margin-bottom: 24px;
 }
 
 .link-tel {
@@ -107,6 +145,8 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 24px;
+        margin-bottom: 24px;
 }
 
 .link:hover,
@@ -116,6 +156,9 @@ p {
 
 .page {
     background-color: #2E2F42;
+    margin: 0px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-btn {
@@ -126,6 +169,9 @@ p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+        padding: 16px 32px;
+        margin: 0 auto;
 }
 
 .main-btn:hover {
