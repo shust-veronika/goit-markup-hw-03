@@ -262,7 +262,7 @@ ul {
     margin-bottom: 8px;
 }
 
-.main-features-mark {
+.main-features {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -272,35 +272,6 @@ ul {
     margin-bottom: 8px;
 }
 
-.main-features-tom {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    padding-top: 32px;
-    margin-bottom: 8px;
-}
-
-.main-features-camila {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    padding-top: 32px;
-    margin-bottom: 8px;
-}
-
-.main-features-daniel {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    padding-top: 32px;
-    margin-bottom: 8px;
-}
 
 .main-features-ban {
     font-weight: 500;
@@ -517,37 +488,7 @@ display: flex;
     padding-bottom: 32px;
 }
 
-.text-produ {
-    font-size: 16px;
-    color: #434455;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    padding-top: 8px;
-}
-
-.text-front {
-    font-size: 16px;
-    color: #434455;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    padding-top: 8px;
-}
-
-.text-camil {
-    font-size: 16px;
-    color: #434455;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    padding-top: 8px;
-}
-
-.text-ui {
+.text {
     font-size: 16px;
     color: #434455;
     font-weight: 400;
