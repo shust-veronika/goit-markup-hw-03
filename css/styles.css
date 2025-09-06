@@ -257,6 +257,7 @@ ul {
     padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .heading-team {
@@ -364,7 +365,7 @@ display: flex;
     padding-bottom: 32px;
 }
 
-.text {
+.text-team {
     font-size: 16px;
     color: #434455;
     font-weight: 400;
